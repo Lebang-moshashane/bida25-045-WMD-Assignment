@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roxanne Glam – Glow with Confidence</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════
+       NAVBAR
+  ══════════════════════════════════════ -->
+  <nav>
+    <div class="wrap nav-inner">
+
+      <!-- Brand Logo -->
+      <a href="#" class="brand">Roxanne Glam</a>
+
+      <!-- Navigation Links -->
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="blog.html">Beauty Blog</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+
+      <!-- Cart + Hamburger -->
+      <div style="display:flex; align-items:center; gap:4px;">
+        <button class="nav-cart" aria-label="Cart">
+          <i class="fa-solid fa-bag-shopping"></i>
+        </button>
+        <button class="nav-toggle" id="navToggle" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════════
+       HERO SECTION
+  ══════════════════════════════════════ -->
+  <section class="hero">
+    <div class="wrap hero-inner">
+
+      <!-- Left: Copy -->
+      <div>
+        <p class="hero-label a-left">Beauty That Empowers</p>
+        <h1 class="hero-title a-left d1">
+          Glow with<br><em>Confidence</em>
+        </h1>
+        <p class="hero-sub a-left d2">
+          High quality cosmetics to bring out your natural beauty.
+        </p>
+        <a href="#" class="btn btn-pink a-left d3">Shop Now</a>
+      </div>
+
+      <!-- Right: SVG Illustration -->
+      <div class="hero-visual a-in d2">
+        <div class="hero-placeholder">
+          <svg viewBox="0 0 420 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Eyeshadow Palette -->
+            <rect x="100" y="180" width="130" height="90" rx="12" fill="#f9c6d8" stroke="#e8336d" stroke-width="2"/>
+            <circle cx="130" cy="205" r="16" fill="#e8336d"/>
+            <circle cx="165" cy="205" r="16" fill="#ff6b9d"/>
+            <circle cx="200" cy="205" r="16" fill="#c0235a"/>
+            <circle cx="130" cy="240" r="16" fill="#ffb3cc"/>
+            <circle cx="165" cy="240" r="16" fill="#ff9dc0"/>
+            <circle cx="200" cy="240" r="16" fill="#f06292"/>
+            <!-- Lipstick 1 -->
+            <rect x="60"  y="130" width="22" height="80" rx="6" fill="#e8336d"/>
+            <rect x="60"  y="110" width="22" height="28" rx="4" fill="#c0235a"/>
+            <ellipse cx="71" cy="110" rx="11" ry="5" fill="#ff6b9d"/>
+            <rect x="55"  y="195" width="32" height="18" rx="4" fill="#f9c6d8"/>
+            <!-- Lipstick 2 -->
+            <rect x="90"  y="120" width="22" height="80" rx="6" fill="#ff6b9d"/>
+            <rect x="90"  y="100" width="22" height="28" rx="4" fill="#e8336d"/>
+            <ellipse cx="101" cy="100" rx="11" ry="5" fill="#ffb3cc"/>
+            <rect x="85"  y="190" width="32" height="18" rx="4" fill="#f9c6d8"/>
+            <!-- Makeup Brush 1 -->
+            <rect x="270" y="60"  width="10" height="140" rx="5" fill="#f9c6d8" stroke="#e8336d" stroke-width="1.5"/>
+            <ellipse cx="275" cy="60"  rx="14" ry="22" fill="#c0235a" opacity=".85"/>
+            <!-- Makeup Brush 2 -->
+            <rect x="295" y="80"  width="10" height="120" rx="5" fill="#fce6ef" stroke="#e8336d" stroke-width="1.5"/>
+            <ellipse cx="300" cy="80"  rx="12" ry="18" fill="#e8336d" opacity=".8"/>
+            <!-- Makeup Brush 3 -->
+            <rect x="318" y="50"  width="10" height="160" rx="5" fill="#f9c6d8" stroke="#e8336d" stroke-width="1.5"/>
+            <ellipse cx="323" cy="50"  rx="16" ry="26" fill="#ff6b9d" opacity=".8"/>
+            <!-- Perfume Bottle -->
+            <rect x="220" y="140" width="48" height="100" rx="10" fill="#fce6ef" stroke="#e8336d" stroke-width="2"/>
+            <rect x="232" y="120" width="24" height="28"  rx="6"  fill="#f9c6d8" stroke="#e8336d" stroke-width="1.5"/>
+            <rect x="238" y="110" width="12" height="16"  rx="3"  fill="#e8336d"/>
+            <rect x="225" y="165" width="36" height="2" fill="#e8336d" opacity=".4"/>
+            <rect x="225" y="175" width="36" height="2" fill="#e8336d" opacity=".4"/>
+            <text x="233" y="200" font-size="8" fill="#e8336d" font-family="serif" font-style="italic">Glam</text>
+            <!-- Powder Compact -->
+            <ellipse cx="170" cy="140" rx="38" ry="22" fill="#f9c6d8" stroke="#e8336d" stroke-width="2"/>
+            <ellipse cx="170" cy="140" rx="26" ry="14" fill="#ffb3cc"/>
+            <ellipse cx="170" cy="140" rx="14" ry="7"  fill="#e8336d" opacity=".6"/>
+            <!-- Decorative Flowers -->
+            <circle cx="350" cy="170" r="8" fill="#ff6b9d" opacity=".5"/>
+            <circle cx="340" cy="160" r="6" fill="#e8336d"  opacity=".4"/>
+            <circle cx="358" cy="158" r="5" fill="#ffb3cc"  opacity=".6"/>
+            <circle cx="60"  cy="80"  r="10" fill="#fce6ef"/>
+            <circle cx="50"  cy="70"  r="7"  fill="#f9c6d8"/>
+            <circle cx="70"  cy="70"  r="6"  fill="#ffb3cc"/>
+            <circle cx="60"  cy="60"  r="5"  fill="#e8336d" opacity=".5"/>
+            <!-- Rose Petals -->
+            <ellipse cx="330" cy="280" rx="18" ry="10" fill="#ffb3cc" opacity=".7" transform="rotate(-25 330 280)"/>
+            <ellipse cx="350" cy="270" rx="16" ry="9"  fill="#f9c6d8" opacity=".7" transform="rotate(10 350 270)"/>
+            <ellipse cx="315" cy="270" rx="14" ry="8"  fill="#e8336d" opacity=".4" transform="rotate(-45 315 270)"/>
+          </svg>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       FEATURE STRIP
+  ══════════════════════════════════════ -->
+  <section class="features">
+    <div class="wrap">
+      <div class="features-grid">
+
+        <div class="feat a-up d1">
+          <div class="feat-icon"><i class="fa-solid fa-shield-heart"></i></div>
+          <span class="feat-name">High Quality<br>Products</span>
+        </div>
+
+        <div class="feat a-up d2">
+          <div class="feat-icon"><i class="fa-solid fa-leaf"></i></div>
+          <span class="feat-name">Cruelty Free<br>&amp; Vegan</span>
+        </div>
+
+        <div class="feat a-up d3">
+          <div class="feat-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+          <span class="feat-name">Affordable<br>Luxury</span>
+        </div>
+
+        <div class="feat a-up d4">
+          <div class="feat-icon"><i class="fa-solid fa-heart"></i></div>
+          <span class="feat-name">Beauty for<br>Everyone</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       ABOUT US PREVIEW
+  ══════════════════════════════════════ -->
+  <section class="about-prev">
+    <div class="wrap">
+      <h2 class="section-title">About Us Preview</h2>
+      <div class="about-cards">
+
+        <div class="acard a-up d1">
+          <div class="acard-icon"><i class="fa-regular fa-user"></i></div>
+          <h3>Brand Story</h3>
+          <p>Discover our journey, values and passion for beauty.</p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+
+        <div class="acard a-up d2">
+          <div class="acard-icon"><i class="fa-solid fa-heart"></i></div>
+          <h3>Mission Statement</h3>
+          <p>We are committed to providing high quality cosmetics.</p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+
+        <div class="acard a-up d3">
+          <div class="acard-icon"><i class="fa-regular fa-star"></i></div>
+          <h3>About the Founder</h3>
+          <p>Meet the founder behind Roxanne Glam.</p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       SHOP PREVIEW
+  ══════════════════════════════════════ -->
+  <section class="shop-prev">
+    <div class="wrap">
+      <h2 class="section-title">Shop Preview</h2>
+      <div class="prev-grid">
+
+        <!-- Skincare -->
+        <div class="pcard a-up d1">
+          <div class="pcard-img">
+            <svg viewBox="0 0 180 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="50" y="30" width="35" height="90" rx="8" fill="#fce6ef" stroke="#e8336d" stroke-width="2"/>
+              <rect x="55" y="20" width="25" height="18" rx="5" fill="#f9c6d8" stroke="#e8336d" stroke-width="1.5"/>
+              <rect x="60" y="12" width="15" height="14" rx="3" fill="#e8336d"/>
+              <text x="56" y="80" font-size="9" fill="#e8336d" font-family="serif">Serum</text>
+              <ellipse cx="115" cy="80" rx="28" ry="38" fill="#f9c6d8" stroke="#e8336d" stroke-width="2"/>
+              <ellipse cx="115" cy="80" rx="18" ry="26" fill="#fce6ef"/>
+              <text x="103" y="84" font-size="8" fill="#e8336d" font-family="serif">Glow</text>
+            </svg>
+          </div>
+          <div class="pcard-label">Skincare</div>
+        </div>
+
+        <!-- Lip Products -->
+        <div class="pcard a-up d2">
+          <div class="pcard-img">
+            <svg viewBox="0 0 180 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="40" y="40"  width="20" height="75" rx="6" fill="#e8336d"/>
+              <rect x="40" y="22"  width="20" height="26" rx="5" fill="#c0235a"/>
+              <ellipse cx="50" cy="22" rx="10" ry="5" fill="#ff6b9d"/>
+              <rect x="35" y="108" width="30" height="16" rx="4" fill="#f9c6d8"/>
+              <rect x="68" y="48"  width="20" height="75" rx="6" fill="#ff6b9d"/>
+              <rect x="68" y="30"  width="20" height="26" rx="5" fill="#e8336d"/>
+              <ellipse cx="78" cy="30" rx="10" ry="5" fill="#ffb3cc"/>
+              <rect x="63" y="116" width="30" height="16" rx="4" fill="#f9c6d8"/>
+              <rect x="96" y="55"  width="20" height="60" rx="6" fill="#c0235a"/>
+              <rect x="96" y="40"  width="20" height="22" rx="5" fill="#a01848"/>
+              <ellipse cx="106" cy="40" rx="10" ry="5" fill="#e8336d"/>
+              <rect x="91" y="108" width="30" height="16" rx="4" fill="#f9c6d8"/>
+              <ellipse cx="130" cy="95" rx="24" ry="14" fill="#fce6ef" stroke="#e8336d" stroke-width="1.5"/>
+              <ellipse cx="130" cy="95" rx="14" ry="8"  fill="#ffb3cc"/>
+            </svg>
+          </div>
+          <div class="pcard-label">Lip Products</div>
+        </div>
+
+        <!-- Face Products -->
+        <div class="pcard a-up d3">
+          <div class="pcard-img">
+            <svg viewBox="0 0 180 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="30"  y="60" width="55" height="60" rx="10" fill="#fce6ef" stroke="#e8336d" stroke-width="2"/>
+              <rect x="40"  y="42" width="35" height="26" rx="6"  fill="#f9c6d8" stroke="#e8336d" stroke-width="1.5"/>
+              <rect x="46"  y="32" width="23" height="18" rx="4"  fill="#e8336d"/>
+              <text x="37"  y="100" font-size="8" fill="#e8336d" font-family="serif">Foundation</text>
+              <rect x="100" y="50" width="45" height="72" rx="10" fill="#f9c6d8" stroke="#e8336d" stroke-width="2"/>
+              <rect x="108" y="34" width="29" height="24" rx="6"  fill="#fce6ef" stroke="#e8336d" stroke-width="1.5"/>
+              <rect x="114" y="24" width="17" height="17" rx="4"  fill="#e8336d"/>
+              <text x="105" y="98" font-size="8" fill="#e8336d" font-family="serif">Blush</text>
+            </svg>
+          </div>
+          <div class="pcard-label">Face Products</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       BEAUTY BLOG PREVIEW
+  ══════════════════════════════════════ -->
+  <section class="blog-prev">
+    <div class="wrap">
+      <h2 class="section-title">Beauty Blog Preview</h2>
+      <div class="blog-grid">
+
+        <!-- Blog Card 1 -->
+        <div class="bcard a-up d1">
+          <div class="bcard-img">
+            <svg viewBox="0 0 200 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <ellipse cx="100" cy="75" rx="42" ry="50" fill="#fce6ef"/>
+              <ellipse cx="84"  cy="65" rx="7"  ry="5"  fill="#f9c6d8"/>
+              <ellipse cx="116" cy="65" rx="7"  ry="5"  fill="#f9c6d8"/>
+              <path d="M88 88 Q100 98 112 88" stroke="#e8336d" stroke-width="2" fill="none" stroke-linecap="round"/>
+              <rect x="145" y="30" width="8"  height="70" rx="4" fill="#2d1a25"/>
+              <rect x="143" y="28" width="12" height="20" rx="3" fill="#e8336d"/>
+              <line x1="149" y1="50" x2="158" y2="55" stroke="#2d1a25" stroke-width="1.5"/>
+              <line x1="149" y1="58" x2="160" y2="60" stroke="#2d1a25" stroke-width="1.5"/>
+              <line x1="149" y1="66" x2="159" y2="68" stroke="#2d1a25" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <div class="bcard-body">
+            <p class="bcard-tag">Makeup</p>
+            <h3 class="bcard-title">Everyday Makeup Look for Beginners</h3>
+            <p class="bcard-desc">A simple and easy makeup look you can do in minutes.</p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </div>
+
+        <!-- Blog Card 2 -->
+        <div class="bcard a-up d2">
+          <div class="bcard-img">
+            <svg viewBox="0 0 200 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <ellipse cx="100" cy="75" rx="42" ry="50" fill="#fce6ef"/>
+              <ellipse cx="100" cy="40" rx="28" ry="18" fill="#f9c6d8" opacity=".6"/>
+              <ellipse cx="68"  cy="80" rx="5"  ry="8"  fill="#b3e5fc" opacity=".8"/>
+              <ellipse cx="80"  cy="95" rx="4"  ry="7"  fill="#b3e5fc" opacity=".7"/>
+              <ellipse cx="120" cy="82" rx="5"  ry="8"  fill="#b3e5fc" opacity=".8"/>
+              <ellipse cx="110" cy="97" rx="4"  ry="6"  fill="#b3e5fc" opacity=".7"/>
+              <ellipse cx="155" cy="95" rx="26" ry="18" fill="#f9c6d8" stroke="#e8336d" stroke-width="1.5"/>
+              <ellipse cx="155" cy="88" rx="26" ry="10" fill="#fce6ef" stroke="#e8336d" stroke-width="1.5"/>
+              <text x="141" y="92" font-size="7" fill="#e8336d" font-family="serif">Moisturizer</text>
+            </svg>
+          </div>
+          <div class="bcard-body">
+            <p class="bcard-tag">Skincare</p>
+            <h3 class="bcard-title">5 Skincare Tips for Glowing Skin</h3>
+            <p class="bcard-desc">Healthy skin starts with the right routine. Here are our top tips!</p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </div>
+
+        <!-- Blog Card 3 -->
+        <div class="bcard a-up d3">
+          <div class="bcard-img">
+            <svg viewBox="0 0 200 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="30"  y="40" width="28" height="70" rx="8" fill="#f5cba7"/>
+              <rect x="64"  y="40" width="28" height="70" rx="8" fill="#e8b87a"/>
+              <rect x="98"  y="40" width="28" height="70" rx="8" fill="#d4956a"/>
+              <rect x="132" y="40" width="28" height="70" rx="8" fill="#b5734a"/>
+              <circle cx="98" cy="30" r="14" fill="#e8336d"/>
+              <path d="M90 30 L96 36 L108 22" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            </svg>
+          </div>
+          <div class="bcard-body">
+            <p class="bcard-tag">Guides</p>
+            <h3 class="bcard-title">How to Choose the Right Foundation</h3>
+            <p class="bcard-desc">Find the perfect match for your skin tone and type.</p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       FEEDBACK CTA STRIP
+  ══════════════════════════════════════ -->
+  <section class="fb-strip">
+    <div class="wrap">
+      <h3 class="a-up">We'd love to hear from you!</h3>
+      <p class="a-up d1">Share your experience and help us improve.</p>
+      <a href="#" class="btn btn-pink a-up d2">Leave Feedback</a>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════ -->
+  <footer>
+    <div class="wrap foot-inner">
+
+      <!-- Social Icons -->
+      <div class="social">
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+      </div>
+
+      <!-- Copyright -->
+      <p class="foot-copy">Copyright &nbsp;|&nbsp; &copy; 2024 Roxanne Glam. All rights reserved.</p>
+
+      <!-- Footer Links -->
+      <div class="foot-links">
+        <a href="#">Legal</a>
+        <a href="#">Privacy</a>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ══════════════════════════════════════
+       JAVASCRIPT — Mobile Nav Toggle
+  ══════════════════════════════════════ -->
+  <script>
+    const toggle = document.getElementById('navToggle');
+    const links  = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => {
+      links.classList.toggle('open');
+      toggle.classList.toggle('open');
+    });
+  </script>
+
+</body>
+</html>
